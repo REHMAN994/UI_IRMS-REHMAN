@@ -1,0 +1,19 @@
+#main{
+    background-color: #fff;
+    width: 100%;
+}
+#main .logo img{
+    width: 155px;
+}
+#main .navbar{
+    box-shadow: 0px 8px 7px #eceded;
+}
+#main .navbar-dark .navbar-brand {
+    color: #5A5E7C;
+    font-weight: 500;
+}
+#main ul i{
+    /* color: rgb(187 206 235 / 25%) ;  */
+    color: #5A5E7C;
+    margin: 12px;
+} 

@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+ 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
+  background-color:#f2f3f7;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* #card .well h1 {
+  text-align: center;
+  color: #34495e;
+}
+#card .well h2{
+  text-align: center;
+  
+} */
+.conatinerpage{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  
+}
+.conatinerpage a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid black;
+  color: black;
+}
+.activepage a{
+  color: white;
+  background-color:#9bc9ef;
+}
+.searchdiv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 200px;
+  float: right;
+  margin: 10px 10px;
+}
+.select_condition{
+  border-color: #D5D7E7;
+  border-radius: 5px;
+  background-color: #F3F3F6;
+  width: 28rem;
+  height: 31px;
+  
+}
+.empty-select{
+  border: 2px red solid !important;
+}
+
+.nextbtn2{
+  visibility: hidden;
+}
+
+.prevbtn2{
+  visibility: hidden;
+}
+
+.danger{
+  border-bottom: red solid 2px !important;
+}
+
+

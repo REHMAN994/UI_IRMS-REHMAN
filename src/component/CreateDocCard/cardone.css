@@ -1,0 +1,191 @@
+/* #card{
+    width: 66rem;        
+    padding: 0;
+    margin: 2rem 0rem 0rem 4rem;
+    background-color: #fff;
+    
+}
+  
+#card .well{
+    min-height: 20px;
+      padding: 19px;
+      margin-bottom: 20px;
+      background-color: #ffffff;
+      border: 1px solid #D5D7E7;
+      border-radius: 5px;
+      -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+      box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+} */
+#card{
+  padding: 0;
+  margin: 2rem 0rem 0rem 2rem;
+   
+}
+#card .well{
+    min-height: 20px;
+    width: 63rem;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid #D5D7E7;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+    position: relative;
+   
+}
+#card .inner-card{
+  margin-top: 1rem;
+}
+.table thead ,tr ,
+tbody,
+th,
+td {
+  text-align: center;
+  color: #5A5E7C;
+  font-family: 'Poppins', sans-serif;
+
+}
+.table td, .table th {
+  padding: 0.75rem;
+  vertical-align: middle;
+  border-top: 0px solid #dee2e6;
+}
+.ant-switch-checked {
+  background-color: #03995D;
+}
+#card .table .mw-100{
+  width: 100px;
+}
+
+#card h1{
+  font-size: revert;
+  font-weight: 600;
+  letter-spacing: normal;
+  margin-top: 1rem;
+}
+
+#card label{
+ color: #779696;
+ font-size: 14px;
+ font-family: 'Poppins', sans-serif;
+}
+#card .warring_card{
+  min-height: 20px;
+  width: 24rem;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f2f3f7;
+  margin-left: 18rem;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+}
+#card .warring_card h2{
+  text-align:center;
+  color: red;
+  font-size: larger;
+  font-weight: 600;
+}
+#card .warring_card p{
+  text-align:center;
+  color: red;
+  font-size: small;
+}
+
+#card p{
+  color: #5A5E8B;
+  font-size: 14px;
+  margin-left: 1rem;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+#card .orr{
+  color: #5A5E8B;
+  font-size: medium;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  text-align: center;
+}
+
+#card input{
+  border-color: #D5D7E7;
+  border-radius: 5px;
+  background-color: #F3F3F6;
+  width: 60rem;
+  height: 2rem;
+
+}
+#card .dropdown_value{
+  border-color: #D5D7E7;
+  border-radius: 5px;
+  color: #5A5E7C;
+  background-color: #F3F3F6;
+  width: 7rem;
+  height: 31px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#card .dropdown_value_larg{
+  border-color: #D5D7E7;
+  border-radius: 5px;
+  color: #5A5E7C;
+  background-color: #F3F3F6;
+  width: 60rem;
+  height: 31px;
+  font-family: 'Poppins', sans-serif;
+}
+#card textarea{
+  border-color: #D5D7E7;
+  border-radius: 5px;
+  background-color: #F3F3F6;
+  width: 60rem;
+  height: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+#card .button{
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+
+}
+#card .table .mw-100{
+  width: 100px;
+}
+#card .btn-back{
+  color: #03995D;
+  background-color: #ffffff;
+  border-color: #03995D;
+  border-radius: 4px;
+  float: right;
+  width: 7rem;
+  margin-right: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+#card .btn-save{
+  background-color: #03995D;
+  color: #ffffff;
+  border-radius: 4px;
+  float: right;
+  width: 7rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: #5A5E8B;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+  color: #5A5E8B;
+}
+
+::placeholder {
+  color: #5A5E8B;
+  margin-bottom: 10px;
+}
+.table .thead-dark th {
+  color: #fff;
+  background-color: #5a5e8b;
+  border-color:none;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+} 
